@@ -1,0 +1,108 @@
+
+body{
+    background-color: #f6f6f6;
+    text-align: justify; 
+
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.btn {
+    width: 42px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+
+.btn span {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btn span::before , .btn span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.btn span::before {
+    transform: translateY(-10px);
+}
+
+.btn span::after {
+    transform: translateY(10px);
+}
+
+.btn.btnCross span {
+    background-color: transparent;
+}
+
+.btn.btnCross span::before {
+    transform: translateY(0px) rotate(45deg);
+}
+
+.btn.btnCross span::after {
+    transform: translateY(0px) rotate(-45deg);
+}
+
+.menuBurger{ 
+    position: fixed;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    top: 60px;
+    transform: translateX(-110%);
+    transition-duration: 2s;
+    background-color: #438086;
+   
+}
+
+.isOpen {
+    transform: translateX(0);
+}
+
+
+
+.menuBurger ul li{
+    list-style: none;
+}
+
+
+
+
+h1{
+    text-align: center;
+    color: #c4652d;
+}
+h2{
+    text-align: center;
+}
+
+.photomax{
+   height: 30vh;
+   
+ 
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;    
+}
