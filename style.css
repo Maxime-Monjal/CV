@@ -200,12 +200,12 @@ h2{
     border-radius: 1rem;
     box-shadow: 0 5px 5px 0 lightgray;
     margin: 1rem;
-    width: 90%;
+    width: 240px;
     text-align: center;
 }
 .projetimg{
-    width: 15rem;
-    height: 15rem;
+    width: 240px;
+    height: 240px;
     border: solid 2px lightgray;
     margin: 1rem;
 
@@ -289,7 +289,7 @@ footer{
 /* _______________________________________DESKTOP MEDIA QUERIES___________________________*/
 
 
-@media screen and (min-width:700px){
+@media screen and (min-width:750px){
 
 /* ___________________________NAV-BAR___________________*/
 
@@ -360,21 +360,29 @@ h1{
 /* ___________________________DESCRIPTION____________________*/
 
 .description{
-    padding: 2rem 25rem;
+    padding: 2rem 30%;
+}
+
+
+/* ___________________________Contact____________________*/
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ___________________________PROJET____________________*/
 
 .contentprojet{
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
     height: 30rem;
 }
 
 .projet{
-    width: 30%;
+    width: 240px;
     height: 100%;
     
 
@@ -382,5 +390,8 @@ h1{
 .projet a {
     height: 100%;
 }
+
+
+
 
 }
