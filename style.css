@@ -155,6 +155,17 @@ h2{
    font-size: 1.2rem;
    text-align: center;
 }
+
+.contact{
+    background-color:#438086;
+    width: 100%;
+}
+
+.contactimg{
+    width: 5rem;
+    margin-right: 2rem;
+    height: 5rem;
+}
 /* _______________________________________COMPETENCES___________________________*/
 .competences {
     margin-top: 2rem;
