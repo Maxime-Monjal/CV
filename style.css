@@ -231,7 +231,6 @@ h4{
     justify-content: center;
     align-items: center;
     text-align: justify;
-    
     color: black;
     text-decoration: none;
 }
@@ -372,7 +371,7 @@ h1{
 
 .projet{
     width: 30%;
-    
+    height: 100%;
     
 
 }
