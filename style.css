@@ -142,3 +142,21 @@ h2{
    color: #f6f6f6;
    font-size: 1.2rem;
 }
+
+.container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color:#DCDCDC;
+    font-size: 1.2rem;
+}
+.container h2 {
+    margin-top: 0;
+}
+.skillimg{
+    width: 3rem;
+    height: 3rem;
+}
