@@ -91,7 +91,7 @@ header{
     list-style: none;
     font-size: 1.5rem;
     border-top: solid 1px black;
-    padding: 0.75rem;
+    padding: 0.75rem 0;
     
 }
 
@@ -168,9 +168,8 @@ h2{
 
 .contactimg{
     width: 5rem;
-    margin-right: 2rem;
     height: 5rem;
-    padding-bottom: 2rem;
+    padding: 0 1rem 2rem;
 }
 /* _______________________________________COMPETENCES___________________________*/
 .competences {
@@ -198,7 +197,6 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem 5rem;
     font-size: 1.2rem;
 }
 .projet{
@@ -383,7 +381,6 @@ h1{
 .contentprojet{
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
     height: 30rem;
 }
 
