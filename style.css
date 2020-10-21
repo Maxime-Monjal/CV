@@ -390,8 +390,8 @@ h1{
     
 
 }
-.projet a {
-    height: 100%;
+.projet a:hover {
+    opacity: 0.8;
 }
 
 
