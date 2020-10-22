@@ -375,6 +375,10 @@ h1{
     align-items: center;
     
 }
+.contactimg:hover{
+    transform: scale(1.1);
+    transition: 0.8s ease-out;
+}
 
 /* ___________________________PROJET____________________*/
 
@@ -390,9 +394,7 @@ h1{
     
 
 }
-.projet a:hover {
-    opacity: 0.8;
-}
+
 
 
 
