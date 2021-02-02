@@ -13,7 +13,7 @@
 👤 **Maxime Monjal**
 
 * Github: [@Maxime-Monjal](https://github.com/Maxime-Monjal)
-* LinkedIn: [@Maxime Monjal](https://linkedin.com/in/Maxime Monjal)
+* LinkedIn: [@Maxime Monjal](https://www.linkedin.com/in/maximemonjal/)
 
 ## Show your support
 
